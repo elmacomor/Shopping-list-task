@@ -1,4 +1,4 @@
-# InternshipTactaTask
+# InternshipTask
 
 This task was done using .Net Core, React typescript and SQL database.
 
