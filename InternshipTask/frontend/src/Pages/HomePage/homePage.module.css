@@ -1,0 +1,87 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selectDiv {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.listButton {
+  padding: 5px;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.selection {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+}
+.productContainer {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+.shopSingleProduct {
+  background-color: rgba(255, 255, 255, 0.796);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  cursor: pointer;
+  margin: 30px 10px 25px;
+  transition: all 0.5s ease;
+  width: 250px;
+  margin: auto;
+}
+
+.productImg {
+  width: 100%;
+  height: 270px;
+}
+.productHeaderFont {
+  color: var(--purple);
+  font-family: Glory, sans-serif;
+
+  width: 220px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.productPriceFont {
+  color: rgb(47, 200, 164, 1);
+  font-family: Glory, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.buttonAdd {
+  width: 100%;
+  background-color: rgb(47, 200, 164, 1);
+  text-align: center;
+  border: none;
+  color: var(--white);
+  font-family: Glory, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+}
