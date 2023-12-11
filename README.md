@@ -1,8 +1,5 @@
 # Shopping-list-task
 This task was done as a part of selection process for internship. I was working with .NET Core and React Typescript. The task was to make 5 shoppers and 5 items. User is able to make shopping lists for shoppers containing multiple items but one item can be found at 3 lists only. 
-# InternshipTask
-
-This task was done using .Net Core, React typescript and SQL database.
 
 ## How to install and run the project
 Before you start the project, you will need following software installed on your machine:
